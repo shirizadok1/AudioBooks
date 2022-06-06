@@ -6,7 +6,7 @@
   <title>TinDog</title>
 
   <!--Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Ubuntu" rel="stylesheet">>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900|Ubuntu" rel="stylesheet">
 
 
   <!-- adding my style.css file to the project -->
@@ -17,7 +17,10 @@
   <script src="https://kit.fontawesome.com/5dd877f52e.js" crossorigin="anonymous"></script>
 
   <!-- bootstrap scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -62,7 +65,7 @@
 
       </div>
       <div class="col-lg-6">
-        <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        <img class="title-image" src="images/iphone6.png" alt="iphone-mockup" >
       </div>
     </div>
   </section>
@@ -143,30 +146,51 @@
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="row">
+        <div class="pricing-column col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg col-12 btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class=" pricing-column col col-lg-4 col-md-6 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg col-12 btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col col-lg-4 col-md-12 col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg col-12 btn-dark" type="button">Sign Up</button>
+            </div>
+            </div>
+          </div>
+        </div>
 
   </section>
 
