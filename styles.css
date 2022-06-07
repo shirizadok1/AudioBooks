@@ -126,7 +126,7 @@ h2 {
   padding: 3% 2%;
 }
 
-@media query (max-width: 1028px) {
+@media (max-width: 1028px) {
 
   #title {
     text-align: center;
