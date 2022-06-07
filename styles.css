@@ -29,9 +29,20 @@ p {
   padding: 7% 15%;
 }
 
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Navigation bar */
 .navbar {
   padding: 0 0 4.5rem;
+
 }
 
 .navbar-nav {
@@ -65,12 +76,10 @@ p {
 
 /* title section */
 #title {
-  background-color: #ff4c68;
-  color: #fff;
   text-align: left;
 }
 
-#title .container-fluid{
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
 
@@ -84,7 +93,6 @@ p {
 
 /* feature section */
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -109,7 +117,6 @@ p {
 
 /* testimonials section */
 #testimonials {
-  color: #fff;
   background-color: #ef8172;
 }
 
@@ -160,10 +167,7 @@ p {
 }
 
 /* cta section */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
+
 
 .cta-Title {
   font-family: "Montserrat";
