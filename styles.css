@@ -297,40 +297,31 @@ h2 {
   margin: 20px 20px 50px;
 }
 
+/* cta section */
+
 #cta{
   background-color: #ff4c68;
-  height: 100%;
+  color: #fff;
   text-align: center;
-  padding: 100px 15% 40px;
+  padding: 7% 15%;;
 }
 
 .cta-Title{
-
-  color: #fff;
   font-family: "Montserrat";
-  font-size: 40px;
+  font-size: 3.5rem;
   font-weight: bold;
+  line-height: 1.5;
   margin: 1% 5% 5%;
 }
 
+/* footer section */
+
 #footer{
   background-color: #fff;
-  padding: 10% 10%;
+  padding: 7% 15%;
   text-align: center;
 }
 
-.Twitter{
-  padding:0%;
-}
-.Facebook{
-  padding: 2%;
-
-}
-.Instagram{
-  padding: 2%;
-
-}
-.Envelope{
-  padding: 2%;
-
+.social-icon{
+  margin: 20px 10px;
 }
