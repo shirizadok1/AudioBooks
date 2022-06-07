@@ -71,10 +71,10 @@ h2 {
 
 /* Title image */
 .title-image {
-  width: 22%;
+  width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 20%;
+  right: 30%;
 }
 
 /* feature section */
@@ -295,4 +295,42 @@ h2 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  height: 100%;
+  text-align: center;
+  padding: 100px 15% 40px;
+}
+
+.cta-Title{
+
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: bold;
+  margin: 1% 5% 5%;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 10% 10%;
+  text-align: center;
+}
+
+.Twitter{
+  padding:0%;
+}
+.Facebook{
+  padding: 2%;
+
+}
+.Instagram{
+  padding: 2%;
+
+}
+.Envelope{
+  padding: 2%;
+
 }
